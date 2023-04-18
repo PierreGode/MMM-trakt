@@ -12,7 +12,7 @@ _If you'd like to contribute, pull requests are welcome!_
 
 ### Creating a [Trakt.tv] API [application]
 
-To get your API keys you need to first create an [application]. Give it a name, and enter `http://localhost/` in the callback field _(it's a required field but not used for our purpose)_.
+To get your API keys you need to first create an [application](https://trakt.tv/oauth/applications). Give it a name, and enter `http://localhost/` in the callback field _(it's a required field but not used for our purpose)_.
 
 
 ## Installation
@@ -52,6 +52,8 @@ To run the module, you need to add the following data to your ` ~/MagicMirror/co
 }
 
 ```
+
+After the module has started an QR code will appear on the mirror for creation of the connection to the app, after aprooval releod magic mirror and enjoy.
 
 [Trakt.tv]:(https://trakt.tv/)
 [application]: (https://trakt.tv/oauth/applications/new)
